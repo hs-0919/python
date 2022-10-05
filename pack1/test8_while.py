@@ -53,6 +53,25 @@ while i <= 10:
     print(re)
     i += 1
 
+print('-------------')
+import time
+#time.sleep(3)
+sw =input('폭탄 스위치를 누를까요?[y/n]')
+if sw == 'Y' or sw == 'y':
+    count =5
+    while 1 <= count:
+        print('%d 초 남았습니다.'%count)
+        time.sleep(1)
+        count -= 1
+    print('폭발합니다.')
+elif sw == 'N' or sw == 'n':
+    print('작업 취소')
+else:
+    print('y 또는 n을 누르세요')
+    
+print('end')
+
+
 # 문1) 1 ~ 100 사이의 숫자 중 3의 배수이나 2의 배수가 아닌 수를 출력하고, 합을 출력
 i=0; hap=0
 while i<=100:
