@@ -9,8 +9,8 @@ print(type(aa), type(bb))
 print()
 family=['엄마','아빠','나','형']
 print(family[2]) # 인덱싱
-print(family[0:2])# 슬라이싱
-family.append('단풍이') # 추가 - 맨뒤에 붙음
+print(family[0:2])# 슬라이싱- 0~1번까지
+family.append('단풍이') # append() - 추가 - 맨뒤에 붙음
 family.insert(0, '할아버지') # 삽입 - 0번째에 넣어라
 family.extend(['외삼촌', '큰누나']) #추가
 family += ['작은이모', '큰이모'] 
