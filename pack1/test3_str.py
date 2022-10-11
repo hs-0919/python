@@ -28,11 +28,13 @@ print()
 s2='kbs mbc'
 s2=' ' + s2[:4] + 'sbs ' + s2[4:] + ' '
 print(s2, len(s2))
-print(s2.strip()) #lstrip(), rstrip()
+print(s2.strip()) # strip() -> 인자를 전달하지 않으면 String에서 공백을 제거한다.
+                  # lstrip() -> 인자로 전달된 문자를 왼쪽에서부터 제거한다.
+                  # rstrip() -> 인자로 전달된 문자를 오른쪽에서부터 제거한다.
 
-s3=s2.split(sep=' ') #split - 자르는거
+s3=s2.split(sep=' ') #split() -> 문자열을 일정한 규칙으로 잘라서 리스트로 만들어 주는 함수이다.
 print(s3)
-print(':'.join(s3)) #join - 집합형
+print(':'.join(s3)) #join -> ':'(매개변수로 들어온)를 넣어서 문자열을 합쳐서 반환해주는 함수
 
 a='life is too long'
 b=a.replace('life', 'Your leg')
