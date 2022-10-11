@@ -28,7 +28,7 @@ test = TestClass()  # 생성자를 호출한 후 TestClass type의 객체 생성
 print(test.aa)  # 멤버필드 호출
 
 # 메소드 호출
-# TestClass.printMessage() => 에러ㄷ뜸
+# TestClass.printMessage() => 에러뜸
 test.printMessage()
 TestClass.printMessage(test) # UnBound method call
 print()
