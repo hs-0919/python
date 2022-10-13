@@ -54,6 +54,7 @@ class Salesman(Regular):
     def data_print(self):
         print('이름 : {}, 나이 : {}, 수령액 : {}'.format(self.irum,self.nai,str(self.pay())))
      
+    
 t = Temporary('홍길동', 25, 20, 150000)
 r = Regular('한국인', 27,3500000)
 s = Salesman('손오공', 29,1200000, 50000000, 0.25)

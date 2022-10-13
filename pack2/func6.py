@@ -54,7 +54,7 @@ print(list(filter(lambda a:a % 2, range(10))))
 print(list(filter(lambda a:a % 5 == 0 or a % 7 ==0, range(1,100))))
 
 
-
+print(list(range(1, 6, 2)))
 
 
 

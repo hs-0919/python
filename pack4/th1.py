@@ -7,7 +7,7 @@
 import threading, time
 
 def run(id):
-    for i in range(1, 101):
+    for i in range(1, 51):
         print('id:{} --> {}'.format(id, i))
         time.sleep(0.2)
         
@@ -25,7 +25,9 @@ th3 = threading.Thread(target=run, args=('삼',))
 th1.start()
 th2.start()
 th3.start()
-
+th1.join()
+th2.join() # join() - 스레드를 생성한 스레드를 진행하지않고, 일단 대기하고 다른스레드의 종료를 기다려주는 것
+th3.join()
 print('프로그램 종료')
 
 
