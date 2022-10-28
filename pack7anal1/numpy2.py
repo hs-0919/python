@@ -1,6 +1,6 @@
 # numpy
 import numpy as np
-from numba.core.typed_passes import BaseTypeInference
+
 
 ss =['tom','james','oscar', 1]
 print(ss, type(ss))  # <class 'list'> 콤마 있음 - 리스트 
