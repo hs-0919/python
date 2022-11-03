@@ -1,12 +1,27 @@
 # 배열 연산
 import numpy as np
 
+data = np.array([[1,2,3,4],
+                [5,6,7,8],
+                [9,10,11,12],
+                [13,14,15,16]])
+print(data)
+print(data[:, ::-1][::-1])
+
 x =np.array([[1,2],[3,4]], dtype=np.float64)
 print(x, x.dtype)
 
 y =np.arange(5, 9).reshape(2,2) # 1차원 -> 2차원
 y = y.astype(np.float64)
 print(y, y.dtype)
+
+
+a=np.array([1,2,3,4,5])
+print(a)
+b=np.arange(1,4).reshape(3,1)
+print(b)
+print(a + b)
+
 
 print()
 print(x + y)
