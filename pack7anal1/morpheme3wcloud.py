@@ -16,7 +16,7 @@ import matplotlib.image as mpimg
 from scrapy import item
 
 # keyword = input('검색어 : ')
-keyword = '낙옆' # 보수 좌파
+keyword = '낙엽' # 보수 좌파
 targetUrl = "https://www.donga.com/news/search?query=" + quote(keyword)
 print(targetUrl)  # https://www.donga.com/news/search?query=%EB%B6%81%ED%95%9C%EB%82%99%EC%98%86
 
@@ -46,8 +46,31 @@ for title in soup.find_all('p', 'tit'):
 
 print(msg)
 
+okt = Okt()
+nouns = okt.nouns(msg)
+results = [] 
 
+for imsi in nouns: # 2글자 이상 명사만 작업에 참여
+    if len(imsi) > 1:
+        results.append(imsi)
 
+print(results)
+count = Counter(results)
+tag = count.most_common(50)  # 빈도수가 높은 순으로 상위 50개만 작업
+print(tag)
+
+# 워드클라우드 
+import pytagcloud 
+taglist = pytagcloud.make_tags(tag, maxsize=100)
+print(taglist[:10])
+
+# tag_image 생성 후 저장
+pytagcloud.create_tag_image(taglist, output='워드클라우드.png', size=(1000,600), 
+                            background=(0,0,0), fontname="Korean", rectangular=False) 
+
+img = mpimg.imread('워드클라우드.png')
+plt.imshow(img)
+plt.show()
 
 
 
