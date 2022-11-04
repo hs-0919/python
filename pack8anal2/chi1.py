@@ -22,8 +22,8 @@ print(data[(data['공부함'] == 1) & (data['불합격'] ==1)].shape[0]) # 7
 
 print()
 ctab = pd.crosstab(index = data['공부안함'], columns=data['불합격'], margins=True)
-ctab.columns = ['합격','불합격', '행합']
-ctab.index = ['공부함', '공부안함', ' 열합갑']
+ctab.columns = ['합격','불합격', '행 합값']
+ctab.index = ['공부함', '공부안함', ' 열 합값']
 print(ctab)
 print(25*30/50)
 
