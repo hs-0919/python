@@ -1,4 +1,4 @@
-# 집합 자료형 : str, list, typle, set, dict
+# 집합 자료형 : str, list, tuple, set, dict
 
 # 문자열 : str - 순서 o: 인덱싱(하나의 값만 참조), 슬라이싱(여러값 참조)이 가능 , 수정 x  
 

@@ -9,7 +9,6 @@ def process():
     print('영웅의 타이틀 송 : ', youngwoung.title_song)
     youngwoung.sing()
 
-
 def process2():
     bts = SingerType()
     bts.sing()
@@ -23,21 +22,10 @@ def process2():
     blackPink.sing()
     # print('소속사:', blackPink.co) -> err
     
-    
-    
 # process()
 
 if __name__ == '__main__':
     process()
     print('------')
     process2()
-
-
-
-
-
-
-
-
-
 

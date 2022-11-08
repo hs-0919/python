@@ -159,5 +159,3 @@ print()
 id_name = {1:'tom', 2:'james'}
 name_id ={value:key for key, value in id_name.items()}
 print(name_id)
-
-

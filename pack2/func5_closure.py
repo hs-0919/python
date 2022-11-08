@@ -82,10 +82,3 @@ print('result3 : ', result3)
 result4 = q2(1, 10000)
 print('result4 : ', result4)
 
-
-
-
-
-
-
-

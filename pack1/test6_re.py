@@ -41,8 +41,3 @@ print(ss)
 p=re.compile('^.+',re.MULTILINE)
 print(p.findall(ss))
 
-
-
-
-
-

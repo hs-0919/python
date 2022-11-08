@@ -2,16 +2,14 @@
 # if 조건 : 실행문 elif 조건 ~ else : ~
 
 var =1
-
 if var >= 3:        #java : {}, py : 들여쓰기
     print('크구나')
     print('참일 때')
-    #pass  아무것도 수행 하지 않음.
+    # pass  아무것도 수행 하지 않음.
 else:
     print('거짓일 때')    
 
 print('end1')
-
 
 print()
 money= 1000
@@ -96,11 +94,4 @@ print(0 if a < 5 else 1 if a <10 else 2)
 print(a * 2 if a > 5 else a + 2 )
         
 print((a+2, a*2)[a >5]) # [a >5] -> false 라서 a+2 실행, true면 a*2 실행 
-
-
-
-
-
-
-
 

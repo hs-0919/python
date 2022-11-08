@@ -53,9 +53,5 @@ print(list(filter(lambda a:a % 2, range(10))))
 # 1~100 사이의 정수 중 5의 배수 이거나 7의 배수만 걸러서 출력
 print(list(filter(lambda a:a % 5 == 0 or a % 7 ==0, range(1,100))))
 
-
 print(list(range(1, 6, 2)))
-
-
-
 

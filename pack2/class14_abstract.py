@@ -51,11 +51,3 @@ print()
 imsi = c2
 imsi.myMethod()
 
-
-
-
-
-
-
-
-

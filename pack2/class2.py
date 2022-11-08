@@ -26,7 +26,6 @@ print('-------')
 car2=Car('james', 20)
 print(car2.handle, car2.name, car2.speed)
 #print('car2 color : %s'%car2.color) #  err ->'Car' object has no attribute 'color'
-
 print('주소 : ', id(Car), id(car1), id(car2))
 
 print()
@@ -47,8 +46,3 @@ car1=Car('tom',10) 하면
 car1이라는 변수가 stack 영역에 있는데 
 car1이 heap 영역에 있는 Car('tom',10) 의 주소를 참조
 '''
-
-
-
-
-

@@ -7,9 +7,6 @@ print('뭔가를 하다가...')
 def DoFunc1():   # 함수의 생성
     print('DoFunc1 수행')
     # return None # 생략
-    
-
-    
 
 print('뭔가를 하다가 2...')   
 DoFunc1() # 함수 호출
@@ -117,6 +114,3 @@ while playAgain == 'y':
     print('계속 할까요?(y or n)')
     playAgain = input()
 
-
-
-    

@@ -8,15 +8,3 @@ class SingerType():
         msg = '노래는 '
         print(msg, self.title_song+ ' 랄랄랄랄라라라ㅏ라라ㅏ라라라라라ㅏ랄')
         
-
-
-
-
-
-
-
-
-
-
-
-

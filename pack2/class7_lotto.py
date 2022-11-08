@@ -22,8 +22,6 @@ class Lottomachine:
             print(self.ballList[a].num, end=' ')
         return self.ballList[0:6]
         
-        
-        
     
 print()
 class LottoUi:
@@ -36,15 +34,9 @@ class LottoUi:
         print('당첨번호')
         for ball in selectedBalls:
             print('%d '%ball.num, end=' ')
-            
-            
+               
 if __name__ == '__main__':
     #lo = LottoUi()
     #lo.playLotto()
     LottoUi().playLotto()
-    
-    
-    
-    
-    
     

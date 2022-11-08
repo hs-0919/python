@@ -22,6 +22,3 @@ def hello2():
     return '고길동'
 print(hello2()) 
 
-
-
-

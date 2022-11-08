@@ -6,7 +6,7 @@ while a <= 5:
     print(a, end=' ')
     a += 1
     
-print('while 수행 후 %d' %a)
+print('while 수행 후 %d'%a)
 
 print()
 i=1
@@ -108,8 +108,8 @@ while i<100:
     i += 2 # 증가치 2
 print('\ntot : ', tot)
 
-# 문4) 1 ~ 1000 사이의 소수(1보다 크며 1과 자신의 수 이외에는 나눌 수 없는 수)와 그 갯수를 출력
 
+# 문4) 1 ~ 1000 사이의 소수(1보다 크며 1과 자신의 수 이외에는 나눌 수 없는 수)와 그 갯수를 출력
 aa=2
 count=0
 
@@ -128,9 +128,3 @@ while aa<=1000:
     aa += 1
 print('\ncount : ', count)
     
-
-
-
-
-
-

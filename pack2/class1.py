@@ -39,14 +39,3 @@ print(type(1))
 print(type(1.1))
 print(type(test))
 print(id(test), id(TestClass))
-
-
-
-
-
-
-
-
-
-
-
