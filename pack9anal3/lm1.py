@@ -36,7 +36,7 @@ from sklearn.linear_model import LinearRegression
 
 model = LinearRegression()
 fit_model = model.fit(xx, yy) # 독립변수 와 종속변수 넣기 
-# / 이미 수집된 학습 데이터로 모형 추정 : 절편, 기울기 얻음(내부적으로 최소 제곱법)
+# 이미 수집된 학습 데이터로 모형 추정 : 절편, 기울기 얻음(내부적으로 최소 제곱법)
 print('기울기 (slope, w) : ', fit_model.coef_) # API중요
 print('절편 (bias, b) : ', fit_model.intercept_)
 
@@ -47,7 +47,7 @@ y_new = fit_model.predict(xx[[0]])
 print('y_new(예측값) : ', y_new) # [-52.17214291]
 print('실제값 : ', yy[0])
 
-y_new2 = fit_model.predict([[33]]) # 꼭 matrix러 넣어주기
+y_new2 = fit_model.predict([[33]]) # 꼭 matrix로 넣어주기
 print('y_new2(예측값) : ', y_new2) 
 
 
