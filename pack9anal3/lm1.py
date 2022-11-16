@@ -37,6 +37,7 @@ from sklearn.linear_model import LinearRegression
 model = LinearRegression()
 fit_model = model.fit(xx, yy) # 독립변수 와 종속변수 넣기 
 # 이미 수집된 학습 데이터로 모형 추정 : 절편, 기울기 얻음(내부적으로 최소 제곱법)
+
 print('기울기 (slope, w) : ', fit_model.coef_) # API중요
 print('절편 (bias, b) : ', fit_model.intercept_)
 
