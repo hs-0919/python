@@ -26,11 +26,3 @@ lmodel = LinearRegression().fit(x,y)
 print('회귀계수(slope) : ', lmodel.coef_)  
 print('회귀계수(intercept) : ', lmodel.intercept_)
 
-
-
-
-
-
-
-
-

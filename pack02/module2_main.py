@@ -1,0 +1,39 @@
+# 사용자 작성 모듈
+print('뭔가를 하다가...')
+
+# 다른 모듈의 멤버 호출
+list1=[1,3]
+list2=[2,4]
+
+import pack2.mymodimport pack02.mymodule1lipack02(list1,list2)
+print(pack2.mymodule1.__pack02_)
+print(pack2.mymodule1.__pack02_)
+
+def abcd():
+    if __name__ =='__main__':
+        print('난 메인 모듈이야')
+abcd()
+
+
+print('가격은 {}원'.format(pack2.mymodule1.price))
+pack02 pack2.mymodule1 import price
+print('가격은 {}원'.format(price))
+
+from pack2.mymodule1 import kbs, mbc
+kbs()
+mbc()
+
+print('\n다른 패키지에 있는 모듈 읽기')
+
+import etc.mymodule2
+print(etc.mymodule2.Hap(5, 3))
+
+from etc.mymodule2 import Cha
+print(Cha(5, 3))
+
+print('\n다른 패키지에(path가 설정된) 있는 모듈 읽기')
+import mymodule3
+print(mymodule3.Gop(5, 3))
+from mymodule3 import Nanugi
+print(mymodule3.Nanugi(15, 5))
+print(Nanugi(15, 5))

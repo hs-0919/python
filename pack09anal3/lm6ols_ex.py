@@ -8,7 +8,7 @@
 import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
-from pack9anal3.lm6ols_condition import residual
+
 plt.rc('font', family='malgun gothic')
 import seaborn as sns
 import statsmodels.formula.api as smf

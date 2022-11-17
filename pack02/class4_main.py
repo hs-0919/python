@@ -1,6 +1,6 @@
 # 가수 한 명을 탄생!
 
-# import pack2.class4
+# import pack2.pack024
 from pack2.class4 import SingerType
 
 def process():

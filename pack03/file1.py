@@ -7,7 +7,7 @@ try:
     print('파일 읽기~~~~~~~~')
     
     
-    #f1 = open(r'C:\work\psou\pro1\pack3\file_test.txt', mode='r', encoding='utf8')
+    #f1 = open(r'C:\work\psou\pro1\pack3\file_tepack03t', mode='r', encoding='utf8')
     f1=open('file_test.txt', mode='r', encoding='utf8')
     # mode= 'r', 'w', 'a', 'b', ....
    
