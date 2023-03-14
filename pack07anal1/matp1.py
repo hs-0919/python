@@ -13,13 +13,13 @@ import matplotlib.pyplot as plt
 plt.rc('font', family='malgun gothic') # 한글깨짐 방지
 plt.rcParams['axes.unicode_minus'] = False  # 음수 깨짐 방지 - 위 랑 세트로 다니면 좋다.
 
-# x = ['서울','수원','인천',] # set은 안됨 / 튜플 가능
-# y = [5,3,7]
-# plt.xlim([-2, 3])
-# plt.ylim([0, 10])
-# plt.plot(x,y)
-# plt.yticks(list(range(-3, 11, 3)))  # 음수 깨짐
-# plt.show()
+x = ['서울','수원','인천',] # set은 안됨 / 튜플 가능
+y = [5,3,7]
+plt.xlim([-2, 3])
+plt.ylim([0, 10])
+plt.plot(x,y)
+plt.yticks(list(range(-3, 11, 3)))  # 음수 깨짐
+plt.show()
 
 # data = np.arange(1, 11, 2)
 # print(data)

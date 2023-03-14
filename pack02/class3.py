@@ -11,7 +11,7 @@ class MyClass:    # 클래스
     
     """
     def __init__(self): 되도록 안쓰는것이 좋음
-        pss
+        pass
     """
     def abc(self):
         print('메소드')

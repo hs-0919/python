@@ -33,7 +33,7 @@ class Child2(AbstractClass):
         print('이제는 자유다')
         
     def normalMethod(self):
-        print('추상 클래스의 일반 메소는 오버라이딩이 선택적이다.')
+        print('추상 클래스의 일반 메소드는 오버라이딩이 선택적이다.')
 
     def good(self):
         print('Child2 고유 메소드')

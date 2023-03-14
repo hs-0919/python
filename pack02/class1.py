@@ -21,18 +21,18 @@ class TestClass:    # prototype , 원형클래스 객체 생성. 고유의 이�
         print(self.aa)
         
 print(TestClass, id(TestClass))
-print(TestClass.aa)
+print(TestClass.aa) # 1
 
-print()
-test = TestClass()  # 생성자를 호출한 후 TestClass type의 객체 생성
-print(test.aa)  # 멤버필드 호출
+print('****')
+test = TestClass()  # 생성자를 호출한 후 TestClass type의 객체 생성, 생성자
+print(test.aa)  # 멤버필드 호출, 1
 
 # 메소드 호출
 # TestClass.printMessage() => 에러뜸
-test.printMessage()
-TestClass.printMessage(test) # UnBound method call
-print()
-test.printMessage()  # Bound method call
+test.printMessage() # 한국인, 1
+TestClass.printMessage(test) # UnBound method call / 한국인, 1
+print('-----')
+test.printMessage()  # Bound method call / 한국인, 1
 
 print()
 print(type(1))

@@ -21,7 +21,7 @@ class coinIn:
 if __name__ == '__main__':
     coinIn().culc() 
 '''
-'''
+
 # 왕자님꺼 
 class CoinIn:
     
@@ -44,9 +44,9 @@ class Machine:
         
 if __name__=='__main__':
     Machine().showData()
-'''
-# 클래스의 포함관계 연습문제  - 선생님꺼
 
+# 클래스의 포함관계 연습문제  - 선생님꺼
+'''
 class CoinIn:
     def calc(self, cupCount):
         re = ""
@@ -76,7 +76,7 @@ class Machine():
 
 if __name__ == '__main__':
     Machine().showData()
-            
+'''
             
             
             

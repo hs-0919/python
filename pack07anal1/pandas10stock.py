@@ -35,7 +35,7 @@ print(df.head(5))
 
 # 웹툰
 
-url = "https://comic.naver.com/webtoon/weekday"
+url = "https://comic.naver.com/webtoon?tab=tue"
 fname = '네이버_인기웹툰순위.csv'
 #fObj = open(fname, mode='w', encoding='utf-8', newline='') # 공백행 제외
 fObj = open(fname, mode='w', encoding='utf-8-sig', newline='') # 엑셀에서 읽을 때 한글 깨짐
@@ -45,14 +45,14 @@ print(title)
 writer.writerow(title)
 
 res = requests.get(url)
-# print(res)
+print(res)
 
 res.raise_for_status() # 읽기 실패하면 작업 중지
 
 soup = BeautifulSoup(res.text, 'html.parser')
-# print(soup)
-datas = soup.find('ol',attrs={'id':'realTimeRankFavorite'}).findAll('li')
-# print(datas)
+print(soup)
+datas = soup.find('ul',attrs={'class':'AsideList__content_list--FXDvm'}).findAll('li')
+print(datas)
 
 for row in datas:
     cols = row.findAll('a')

@@ -100,7 +100,7 @@ while i<100:
     if cnt % 2 ==0: # 짝수 위치 숫자 처리
         tot += i
         print(i, end =' ')
-    else:  # 홀수 우치 숫자 처리
+    else:  # 홀수 위치 숫자 처리
         k = i * -1 # 부호 변경
         tot += k
         print(k, end=' ')

@@ -40,7 +40,7 @@ print('키워드(예약어)목록 : ', keyword.kwlist)
 print()
 print(10, oct(10), hex(10), bin(10))
 print(10, 0o12, 0xa, 0b1010) # 다 10이다.
-
+print()
 print('자료형')
 print(3, type(3))
 print(3.4, type(3.4))

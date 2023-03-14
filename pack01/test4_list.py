@@ -1,4 +1,4 @@
-# 묶음형(집힙형) 자료형 : list - 순서 o, 수정 가능
+# 묶음형(집합형) 자료형 : list - 순서 o, 수정 가능
 a= [1,2,3]; b=[10, a, 12.5,  True, '금쪽이']
 print(a, type(a), id(a))
 print(b, type(b), id(b))

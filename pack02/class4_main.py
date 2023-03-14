@@ -1,7 +1,7 @@
 # 가수 한 명을 탄생!
 
 # import pack2.pack024
-from pack2.class4 import SingerType
+from pack02.class4 import SingerType
 
 def process():
     
@@ -18,9 +18,10 @@ def process2():
     print('소속사:', bts.co)
     print()
     blackPink = SingerType()
-    blackPink.title_song='셧다운'
+    blackPink.title_song='shut down'
     blackPink.sing()
-    # print('소속사:', blackPink.co) -> err
+    blackPink.co = 'YG'
+    print('소속사:', blackPink.co)
     
 # process()
 

@@ -31,6 +31,7 @@ class LottoUi:
     def playLotto(self):
         input('로또를 시작 하려면 엔터키를 누르세요!')
         selectedBalls = self.machine.selectBalls()
+        print()
         print('당첨번호')
         for ball in selectedBalls:
             print('%d '%ball.num, end=' ')

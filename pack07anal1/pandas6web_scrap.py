@@ -30,8 +30,8 @@ def spider():
     
 
 
-if __name__ == '__main__':
-    spider()
+#if __name__ == '__main__':
+  #  spider()
 
 
 

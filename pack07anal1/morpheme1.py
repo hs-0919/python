@@ -1,7 +1,7 @@
 # 한글 형태소 지원 라이브러리 konlpy를 사용
 # 5언 9품사로 한글 문서를 분리
 from konlpy.tag import Kkma, Okt
-from konlpy.tag._komoran import Komoran
+from konlpy.tag._komoran import Komoran 
 
  
 
